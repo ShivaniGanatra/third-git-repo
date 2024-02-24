@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+     background-color: white;
+    max-width: 1400px;
+    margin: auto;
+}
+
+header {
+    height: 500px;
+    padding: 100px;
+    color: black;
+}
+
+.flex-container-head {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+sub-heading{
+    text-align:center;
+    height: 200px;
+    padding: 0px;
+    color: lightskyblue;
+}
+
+img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.buttona {
+    width: 150px;
+    height: 75px;
+    background-color: white;
+    border-color: darkblue;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-style: bold;
+}
+
+.buttonb {
+    width: 150px;
+    height: 75px;
+    background-color: darkblue;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-style: bold;
+    color: white;
+}
+
+.buttonc {
+    width: 150px;
+    height: 75px;
+    background-color: darkblue;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-style: bold;
+    color: white;
+}
+
+.footer {
+    width: 1400px;
+    height: 150px;
+    background-color: blanchedalmond;
+    text-align: center;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    border: 20px;
+}
+
+.Point1 {
+    display: flex;
+}
